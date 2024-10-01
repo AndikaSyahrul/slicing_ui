@@ -1,0 +1,62 @@
+body {
+    font-family: 'Fredoka One', cursive;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.nav-links a {
+    margin-right: 2rem;
+    font-size: 1.125rem;
+    color: #FFA500;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: #FFB84D;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 3rem;
+}
+.main-content h1 {
+    font-size: 3.75rem;
+    color: #FFA500;
+}
+.main-content p {
+    font-size: 1.5rem;
+    color: #FFA500;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.search-bar input {
+    padding: 0.5rem;
+    border-radius: 0.375rem 0 0 0.375rem;
+    border: 1px solid #FFA500;
+    background-color: #000;
+    color: #FFA500;
+}
+.search-bar button {
+    padding: 0.5rem;
+    background-color: #FFA500;
+    color: #000;
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+.try-now-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #FFA500;
+    color: #000;
+    border-radius: 0.375rem;
+    margin-top: 1.5rem;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+}
